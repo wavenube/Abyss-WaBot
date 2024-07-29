@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `AbysSession`;
+global.authFile = `MysticSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -255,7 +255,7 @@ fs.watch(dirToWatchccc, (eventType, filename) => {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./AbysSession")
+let directorio = readdirSync("./MysticSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
@@ -286,7 +286,7 @@ console.log(chalk.bold.red(`[ ℹ️ ] Algo salio mal durante la eliminación, a
 }}
 
 function purgeOldFiles() {
-const directories = ['./AbysSession/', './jadibts/']
+const directories = ['./MysticSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
