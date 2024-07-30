@@ -36,17 +36,38 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
 
 ${tradutor.texto1[1]} ${taguser}
 
-> ★ Moonlight Team ★
+> ★ Abyss Bot ★
 
 ${tradutor.texto1[2]}
 
-${tradutor.texto1[3]} ${level}
-${tradutor.texto1[4]} ${exp}
-${tradutor.texto1[5]} ${role}
-${tradutor.texto1[6]} ${limit}
-${tradutor.texto1[7]} ${money}
-${tradutor.texto1[8]} ${joincount}
-${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+╭━━❍Abyss - Bot❍━━╮ 
+ ┃ ╭━━━━━━━━━━━━━━━━╮ 
+ ┃ ┃ ╭┈────────────╮ 
+ ┃ ┃ │❍ 🅼🅴🅽🆄 ❍ 
+ ┃ ┃ ╰┈────────────╯ 
+ ┃ ╰━━━━━━━━━━━━━━━━╯ 
+ ┣━━━▢ ʙᴜᴇɴᴀꜱ, ${taguser}• 
+ ┃╭━━━━━━━━━━━━━━━━╾• 
+ ┃┃  ❍ ${vs} ❍ 
+ ┃┣━━━━━━━━━━━━━━━━╾• 
+ ┃┃ ⋄ ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ʙᴏᴛ:  Shizu-Hub 
+ ┃┃ ⋄ ꜰᴇᴄʜᴀ » ${date} 
+ ┃┃ ⋄ ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ » ${uptime} 
+ ┃┃ ⋄ ʟᴇɴɢᴜᴀᴊᴇ » ꜱᴘᴀɴɪꜱʜ 
+ ┃┃ ⋄ ᴜꜱᴜᴀʀɪᴏꜱ » ${rtotalreg} 
+ ┃╰━━━━━━━━━━━━━━━━╾• 
+ ╰━━━╼Abyss - Bot╾━━━╯ 
+
+ ╭━━━━━━━━━━━━━━━━╮
+     INFO DEL USUARIO          
+ ╭━━━━━━━━━━━━━━━━╯
+ ║👤 NOMBRE: ${taguser} 
+ ║🧰 EXPERIENCIA ➟ ${tradutor.texto1[4]} ${exp}
+ ║⚓ RANGO ➟ ${tradutor.texto1[5]} ${role}
+ ║💎 DIAMANTES ➟ ${tradutor.texto1[6]} ${limit} 
+ ║💸 DOLARES ➟ ${tradutor.texto1[7]} ${money}
+ ║ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+ ╰═══════════════ ✧ 
  ${readMore}
 
  ${tradutor.texto1[10]}
